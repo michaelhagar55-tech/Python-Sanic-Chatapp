@@ -349,38 +349,3 @@ class OPERATION_TYPES:
     }
 
 
-
-'''
-依赖库
-eventlet==0.30.2
-gevent
-gunicorn
-'''
-
-'''
-另外，Nginx还提供了一个reload的命令，可以在不停止服务器的情况下重新加载配置文件。例如，可以执行以下命令来重新加载Nginx的配置文件：
-$ nginx -s reload
-
-1. 在首页增加一个统计表格，带搜索框，可以根据搜索条件统计（都是再搜索条件内积累统计，默认数据为空， 搜索后才出数据）。
-表格列项：客服名称、客服在线时长、忙碌时长、登入时长、登出时长、平均对话时长、平均首次回复时长、正在对话数量、总会话数、有效会话数、总消息数
-在线时长：积累在线时长（有三种状态，在线离线和忙碌，这个只统计在线状态的时长）。
-忙碌时长：积累忙碌时长。
-登出时长：退出账户登录的时长。
-有效会话数：指客户有回复的对话。
-平均首次回复时长：指从创建会话到客服首次回复的平均时长。
-2. 对话增加小窗口方便回复和多开，类似QQ独立的会话窗口一样
-
-滑动验证码
-https://docs.hcaptcha.com/
-
-https://dashboard.hcaptcha.com/welcome#
-site key 
-1.6b25cde0-f40e-430e-80ca-6f4d1238f661
-2.（easychat.one）
-7563be13-5e47-4e8b-be06-77714bb0c1fe
-scret ES_7de49fbc5b9d40eaac25d5f6b01b9e22
-
-https://www.hcaptcha.com/pricing?utm_source=docs6
-'''
-
-
