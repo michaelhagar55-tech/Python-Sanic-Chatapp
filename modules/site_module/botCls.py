@@ -10,7 +10,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
 logger = logging.getLogger(__name__)
-token = '6471505983:AAE7JvJcxk75lzzoHWoox810xWvdVBw3Htc'
+token = '' # add your telegram bot token
 # uId = '1131694507'
 
 
